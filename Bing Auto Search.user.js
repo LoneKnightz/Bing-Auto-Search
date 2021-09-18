@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Bing Auto Search
 // @namespace    https://github.com/emtry/Bing-Auto-Search
-// @updateURL    https://github.com/emtry/Bing-Auto-Search/raw/master/Bing%20Auto%20Search.js
-// @downloadURL  https://github.com/emtry/Bing-Auto-Search/raw/master/Bing%20Auto%20Search.js
+// @updateURL    https://raw.githubusercontent.com/emtry/Bing-Auto-Search/main/Bing%20Auto%20Search.user.js
+// @downloadURL  https://raw.githubusercontent.com/emtry/Bing-Auto-Search/main/Bing%20Auto%20Search.user.js
 // @version      1.0.1
 // @description  Microsoft Rewards Bing Auto Search
 // @author       ehgenong
