@@ -16,7 +16,7 @@
     'use strict';
 
     for (var i=0,j=54; i<j; i++){
-        if(i>40 || i%2==0){
+        if(i > 40 || i%2 == 0){
             setTimeout(() => ret0(wordlists[Math.floor(Math.random()*(2048+1))]), 5000 * i)
         }else{
             setTimeout(() => ret1(wordlists[Math.floor(Math.random()*(2048+1))]), 5000 * i)
