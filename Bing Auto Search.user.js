@@ -3,7 +3,7 @@
 // @namespace    https://github.com/emtry/Bing-Auto-Search
 // @updateURL    https://raw.githubusercontent.com/emtry/Bing-Auto-Search/main/Bing%20Auto%20Search.user.js
 // @downloadURL  https://raw.githubusercontent.com/emtry/Bing-Auto-Search/main/Bing%20Auto%20Search.user.js
-// @version      1.0.1
+// @version      1.0.2
 // @description  Microsoft Rewards Bing Auto Search
 // @author       ehgenong
 // @match        https://rewards.microsoft.com/pointsbreakdown
@@ -15,8 +15,8 @@
 (function() {
     'use strict';
 
-    for (var i=0,j=54; i<j; i++){
-        if(i > 40 || i%2 == 0){
+    for (var i=0,j=60; i<j; i++){
+        if(i > 45 || i%2 == 0){
             setTimeout(() => ret0(wordlists[Math.floor(Math.random()*(2048+1))]), 5000 * i)
         }else{
             setTimeout(() => ret1(wordlists[Math.floor(Math.random()*(2048+1))]), 5000 * i)
